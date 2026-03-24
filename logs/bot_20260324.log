@@ -1,0 +1,228 @@
+2026-03-24T12:46:37 | INFO     | crypto_bot.api | [API] CryptoSignalBot starting up
+2026-03-24T12:46:37 | INFO     | crypto_bot.scheduler | [SCHEDULER] Scheduler started
+2026-03-24T12:46:37 | ERROR    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'startup_scan' raised an exception
+2026-03-24T12:46:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:46:45 | INFO     | crypto_bot.predict | [PREDICT] XGBoost model loaded from disk
+2026-03-24T12:46:45 | INFO     | crypto_bot.predict | [PREDICT] MLP model loaded from disk
+2026-03-24T12:46:46 | INFO     | crypto_bot.api | [API] Manual scan triggered via API
+2026-03-24T12:46:46 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:46:46 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:46:46 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:46:46 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:46:46 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:46:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:46:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:46:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:17 | ERROR    | crypto_bot.kill_switch | [KILL_SWITCH] Kill switch ACTIVATED — STOP file created.
+2026-03-24T12:47:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:25 | INFO     | crypto_bot.kill_switch | [KILL_SWITCH] Kill switch DEACTIVATED — STOP file removed.
+2026-03-24T12:47:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:28 | ERROR    | crypto_bot.kill_switch | [KILL_SWITCH] Kill switch ACTIVATED — STOP file created.
+2026-03-24T12:47:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:47:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:48:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:21 | INFO     | crypto_bot.api | [API] Manual scan triggered via API
+2026-03-24T12:49:21 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:49:21 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:49:21 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:49:21 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:49:21 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:49:22 | INFO     | crypto_bot.api | [API] Manual scan triggered via API
+2026-03-24T12:49:22 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:49:22 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:49:22 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:49:22 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:49:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:23 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:49:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:49:58 | INFO     | crypto_bot.api | [API] Manual scan triggered via API
+2026-03-24T12:49:58 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:49:58 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:49:58 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:49:58 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:49:58 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:50:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:03 | INFO     | crypto_bot.api | [API] Manual scan triggered via API
+2026-03-24T12:50:03 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:50:03 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:50:03 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:50:03 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:50:03 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:50:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:50:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:51:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:52:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:07 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:12 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:17 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:27 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:32 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:37 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:42 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:53:57 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:02 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:28 | INFO     | crypto_bot.api | [API] CryptoSignalBot starting up
+2026-03-24T12:54:28 | INFO     | crypto_bot.scheduler | [SCHEDULER] Scheduler started
+2026-03-24T12:54:28 | ERROR    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'startup_scan' raised an exception
+2026-03-24T12:54:33 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:38 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:43 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:48 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:53 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:54:58 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:17 | INFO     | crypto_bot.api | [API] CryptoSignalBot starting up
+2026-03-24T12:59:17 | INFO     | crypto_bot.scheduler | [SCHEDULER] Scheduler started
+2026-03-24T12:59:18 | INFO     | crypto_bot.scheduler | [SCHEDULER] Scheduled scan triggered
+2026-03-24T12:59:18 | INFO     | crypto_bot.scanner | [SCANNER] Scan started
+2026-03-24T12:59:18 | INFO     | crypto_bot.scanner | [SCANNER] Fetched 20 tickers
+2026-03-24T12:59:18 | INFO     | crypto_bot.scanner | [SCANNER] 20 USDT pairs available
+2026-03-24T12:59:18 | INFO     | crypto_bot.scanner | [SCANNER] 20 pairs pass volume filter (>1.0M USD)
+2026-03-24T12:59:18 | INFO     | crypto_bot.scanner | [SCANNER] Scan complete: 20 tradable markets, 20 top opportunities, 0 anomalies detected
+2026-03-24T12:59:18 | INFO     | crypto_bot.scheduler | [SCHEDULER] Scan cached: 20 tradable markets
+2026-03-24T12:59:18 | INFO     | crypto_bot.scheduler | [SCHEDULER] Auto-research triggered for 10 markets
+2026-03-24T12:59:18 | INFO     | crypto_bot.research | [RESEARCH] Research batch started: 10 markets
+2026-03-24T12:59:18 | INFO     | crypto_bot.research | [RESEARCH] Research started: INJ/USDT
+2026-03-24T12:59:18 | INFO     | crypto_bot.research | [RESEARCH] Research started: UNI/USDT
+2026-03-24T12:59:18 | INFO     | crypto_bot.research | [RESEARCH] Research started: BNB/USDT
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for INJ/USDT (no credentials configured)
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for INJ/USDT
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for UNI/USDT (no credentials configured)
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for UNI/USDT
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for BNB/USDT (no credentials configured)
+2026-03-24T12:59:18 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for BNB/USDT
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for INJ/USDT
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for INJ/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for INJ/USDT: bullish (compound=+0.009, n=16)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for INJ/USDT: bullish (compound=+0.045, n=16)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Research started: OP/USDT
+2026-03-24T12:59:19 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for OP/USDT (no credentials configured)
+2026-03-24T12:59:19 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for OP/USDT
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for BNB/USDT
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for BNB/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for BNB/USDT: bullish (compound=+0.009, n=16)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for BNB/USDT: bullish (compound=+0.024, n=16)
+2026-03-24T12:59:19 | INFO     | crypto_bot.research | [RESEARCH] Research started: APT/USDT
+2026-03-24T12:59:19 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for APT/USDT (no credentials configured)
+2026-03-24T12:59:19 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for APT/USDT
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for APT/USDT
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for APT/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for APT/USDT: bullish (compound=+0.165, n=10)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for APT/USDT: bullish (compound=-0.095, n=16)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Research started: SOL/USDT
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for SOL/USDT (no credentials configured)
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for SOL/USDT
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS: 16 articles for OP/USDT
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for OP/USDT: bearish (compound=-0.291, n=16)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for OP/USDT: bullish (compound=+0.009, n=16)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for OP/USDT: bearish (compound=-0.073, n=16)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Research started: XRP/USDT
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for XRP/USDT (no credentials configured)
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for XRP/USDT
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] RSS feed returned 429: https://cryptopanic.com/news/rss/
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS: 17 articles for SOL/USDT
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for SOL/USDT: bearish (compound=-0.291, n=17)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for SOL/USDT: bullish (compound=+0.321, n=14)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for SOL/USDT: bullish (compound=-0.093, n=19)
+2026-03-24T12:59:20 | INFO     | crypto_bot.research | [RESEARCH] Research started: LTC/USDT
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for LTC/USDT (no credentials configured)
+2026-03-24T12:59:20 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for LTC/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for XRP/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for XRP/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for XRP/USDT: bullish (compound=+0.165, n=10)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for XRP/USDT: bearish (compound=-0.150, n=16)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Research started: SUI/USDT
+2026-03-24T12:59:21 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for SUI/USDT (no credentials configured)
+2026-03-24T12:59:21 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for SUI/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for UNI/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for UNI/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for UNI/USDT: bullish (compound=+0.009, n=16)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for UNI/USDT: bullish (compound=-0.081, n=16)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Research started: BTC/USDT
+2026-03-24T12:59:21 | WARNING  | crypto_bot.research | [RESEARCH] Reddit: using mock data for BTC/USDT (no credentials configured)
+2026-03-24T12:59:21 | WARNING  | crypto_bot.research | [RESEARCH] Twitter: using mock data for BTC/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for LTC/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for LTC/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for LTC/USDT: bullish (compound=+0.165, n=10)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for LTC/USDT: bullish (compound=+0.064, n=16)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for SUI/USDT
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for SUI/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for SUI/USDT: bullish (compound=+0.165, n=10)
+2026-03-24T12:59:21 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for SUI/USDT: bullish (compound=+0.031, n=16)
+2026-03-24T12:59:22 | INFO     | crypto_bot.research | [RESEARCH] RSS: 15 articles for BTC/USDT
+2026-03-24T12:59:22 | INFO     | crypto_bot.research | [RESEARCH] RSS sentiment for BTC/USDT: bearish (compound=-0.291, n=15)
+2026-03-24T12:59:22 | INFO     | crypto_bot.research | [RESEARCH] Reddit sentiment for BTC/USDT: bullish (compound=+0.342, n=18)
+2026-03-24T12:59:22 | INFO     | crypto_bot.research | [RESEARCH] Twitter sentiment for BTC/USDT: bullish (compound=+0.223, n=20)
+2026-03-24T12:59:22 | INFO     | crypto_bot.research | [RESEARCH] Research batch complete: 10/10 succeeded
+2026-03-24T12:59:22 | INFO     | crypto_bot.scheduler | [SCHEDULER] Research cache updated: 10 briefs
+2026-03-24T12:59:22 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'startup_scan' completed
+2026-03-24T12:59:23 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:28 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:33 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:38 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:43 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:47 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed
+2026-03-24T12:59:52 | DEBUG    | crypto_bot.scheduler | [SCHEDULER] Scheduled job 'trade_monitor' completed

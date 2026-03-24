@@ -1,0 +1,71 @@
+{
+  "lessons": [
+    {
+      "trade_id": "trade_1774326345097_3b9fee",
+      "symbol": "ETH/USDT",
+      "outcome": "win",
+      "pnl_usd": 39.57,
+      "pnl_pct": 3.9574,
+      "direction": "BUY",
+      "entry_price": 3501.433463,
+      "exit_price": 3640.0,
+      "predicted_probability": 0.68,
+      "close_reason": "tp_hit",
+      "duration_seconds": 0.0,
+      "failure_type": null,
+      "notes": "Winning trade. Features and timing were well-aligned.",
+      "recorded_at": "2026-03-24T04:25:48.458119"
+    },
+    {
+      "trade_id": "trade_1774326360586_a3c287",
+      "symbol": "SOL/USDT",
+      "outcome": "loss",
+      "pnl_usd": -21.39,
+      "pnl_pct": -2.1392,
+      "direction": "BUY",
+      "entry_price": 180.256094,
+      "exit_price": 176.4,
+      "predicted_probability": 0.68,
+      "close_reason": "sl_hit",
+      "duration_seconds": 1.0,
+      "failure_type": "bad_execution",
+      "notes": "Slippage or fast SL hit. Check spread and liquidity thresholds.",
+      "recorded_at": "2026-03-24T04:26:04.178012"
+    },
+    {
+      "trade_id": "trade_1774326389366_f12ad0",
+      "symbol": "BTC/USDT",
+      "outcome": "win",
+      "pnl_usd": 7.32,
+      "pnl_pct": 0.7339,
+      "direction": "BUY",
+      "entry_price": 71169.742952,
+      "exit_price": 71692.035898,
+      "predicted_probability": 0.759,
+      "close_reason": "manual",
+      "duration_seconds": 0.0,
+      "failure_type": null,
+      "notes": "Winning trade. Features and timing were well-aligned.",
+      "recorded_at": "2026-03-24T04:26:29.376338"
+    },
+    {
+      "trade_id": "trade_1774326573736_a60521",
+      "symbol": "XRP/USDT",
+      "outcome": "win",
+      "pnl_usd": 39.29,
+      "pnl_pct": 3.9288,
+      "direction": "BUY",
+      "entry_price": 0.57554,
+      "exit_price": 0.598152,
+      "predicted_probability": 0.68,
+      "close_reason": "tp_hit",
+      "duration_seconds": 1.0,
+      "failure_type": null,
+      "notes": "Winning trade. Features and timing were well-aligned.",
+      "recorded_at": "2026-03-24T04:29:33.742712"
+    }
+  ],
+  "downranked_markets": {},
+  "downranked_sources": {},
+  "last_updated": "2026-03-24T04:29:33.742719"
+}

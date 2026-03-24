@@ -1,0 +1,68 @@
+{
+  "bot": {
+    "name": "CryptoSignalBot",
+    "version": "1.0.0",
+    "mode": "paper"
+  },
+  "scanner": {
+    "interval_minutes": 15,
+    "top_n_pairs": 100,
+    "min_volume_usd_24h": 1000000,
+    "min_order_book_depth_usd": 50000,
+    "max_spread_pct": 0.5,
+    "anomaly_price_change_pct_1h": 10.0,
+    "anomaly_volume_multiplier_7d": 5.0,
+    "opportunity_score_top_n": 20
+  },
+  "research": {
+    "sentiment_sources": ["rss", "reddit", "twitter_mock"],
+    "rss_feeds": [
+      "https://cryptopanic.com/news/rss/",
+      "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    ],
+    "reddit_subreddits": ["CryptoCurrency", "Bitcoin", "ethereum", "altcoin"],
+    "sentiment_min_confidence": 0.6,
+    "max_articles_per_source": 20
+  },
+  "prediction": {
+    "min_edge_pct": 4.0,
+    "model_vote_threshold": 0.55
+  },
+  "risk": {
+    "kelly_fraction": 0.25,
+    "max_total_exposure_pct": 50.0,
+    "var_confidence": 0.95,
+    "var_daily_limit_pct": 5.0,
+    "max_drawdown_pct": 8.0,
+    "daily_loss_limit_pct": 15.0,
+    "max_concurrent_positions": 15,
+    "max_slippage_pct": 2.0
+  },
+  "trade": {
+    "default_reward_risk_ratio": 2.0,
+    "default_sl_pct": 2.0,
+    "default_tp_pct": 4.0,
+    "monitor_interval_seconds": 5
+  },
+  "bankroll": {
+    "initial_usd": 10000.0,
+    "current_usd": 10000.0
+  },
+  "exchange": {
+    "id": "binance",
+    "api_key": "",
+    "api_secret": "",
+    "testnet": false
+  },
+  "reddit": {
+    "client_id": "",
+    "client_secret": ""
+  },
+  "twitter": {
+    "bearer_token": ""
+  },
+  "logging": {
+    "level": "INFO",
+    "retain_days": 30
+  }
+}

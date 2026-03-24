@@ -1,0 +1,24 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+apscheduler==3.10.4
+ccxt==4.2.95
+requests==2.31.0
+httpx==0.27.0
+pydantic==2.7.1
+python-multipart==0.0.9
+
+# Phase 2 (Research)
+feedparser==6.0.11
+praw==7.7.1
+vaderSentiment==3.3.2
+
+# Phase 3-4 (Predict + Risk)
+scikit-learn==1.4.2
+xgboost==2.0.3
+numpy>=2.0.0
+pandas==2.2.2
+ta==0.11.0
+
+# Utilities
+python-dotenv==1.0.1
+filelock==3.14.0
