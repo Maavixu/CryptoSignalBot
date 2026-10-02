@@ -1,4 +1,4 @@
-# CryptoSignalBot
+# CryptoSignalBot(MADE WITH AI FOR TESTING)
 
 A production-ready crypto trading signal bot with a five-step AI analysis pipeline, ensemble machine learning, and a real-time web dashboard. Runs in paper (simulated) mode out of the box — no exchange credentials required to start.
 
